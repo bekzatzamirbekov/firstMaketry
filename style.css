@@ -1,0 +1,216 @@
+
+*
+{
+    font-family:  'Gilroy', sans-serif;}
+body {
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  'Gilroy', sans-serif;
+}
+.cont{
+    width: 950px;
+    margin: 40px auto 40px;
+    
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color:  rgba(255, 255, 255, 1);
+
+    /* padding-bottom: 70px; */ 
+}
+.nav {
+    font-family: 'Gilroy-Bold';
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    text-align: normal;
+    font-size: 1rem;
+    border-bottom: 1px solid #828282
+    ;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+    /* margin-top: 15px; */
+}
+.nav-link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 13px 13px;
+    color:  #828282;
+    margin-right: 5px;
+}
+.nav-link a{
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+}
+.nav-link:hover {
+    text-decoration:none;
+    /* background-color: #d0ebff; */
+    color: #070707;
+
+    /* border: 0.5px solid #339af0 */
+}
+.nav-link.current {
+    border-bottom: 2px solid #1971c2;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    font-size: 1.1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .nav-link {
+    padding: 20px 20px;
+  }
+  
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    /* align-items:flex-end; */
+    justify-content: space-around;
+
+}
+.homeText{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom:35px;
+}
+.homeText .ru{
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    transform: rotate(-90deg);
+}
+/* .homeText h1{
+    font-size: 45px;
+    line-height: 20px;
+} */
+.img{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.about{
+    /* padding: 90px 0; */
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.skills{
+    padding: 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills p, h1{
+    text-align: center;
+}
+.skills .adobe{
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    align-items:center ;
+
+}
+.skills .ps{
+    font-weight: bold;
+    color: #828282;;
+    height: 210px;
+    width: 160px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+}.skills .fig{
+    font-weight: bold;
+    color: #828282;;
+    height: 210px;
+    width: 160px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skills .over-text{
+    margin-top: 145px;
+    padding: 40px auto ;
+    text-align: center;
+}
+/* ---------------------------- */
+.portfolio{
+    padding-top: 100px;
+    background: rgba(246, 246, 246, 1);
+    text-align: center;
+    
+}
+.all_blogs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.portfolio h1{
+    padding-bottom: 50px;
+}
+.blogs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.blogs img{
+    padding-bottom: 30px;
+}
+.blogs a{
+    padding-bottom: 90px;
+}
+/* -------------------------- */
+.contacts{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+
+}
+.contacts button{
+    border-radius: 20px;
+    background: rgba(7, 7, 7, 1);
+    color: #F6F6F6;
+    font-size: 18px;
+    width: 180px;
+    height: 40px;
+    border-color: #070707;
+}
+.contacts button:hover{
+    box-shadow: 5px 5px 5px red;   
+}
+.contacts .clicks{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    padding-bottom: 50px;
+}
+.contacts a{
+    color: rgba(130, 130, 130, 1);
+    font-size: 14px;
+    text-decoration: none;
+}
